@@ -5,13 +5,13 @@
 import 'dev-community:india/flutter-devs';
 
 class AboutMe extends ApplicationDeveloper {
-  static final String name = "Smit Gopani";
+  static final String name = "Darshit Mendapara";
   dynamic title = "Flutter Developer";
   dynamic location = "Surat - Gujarat, India";
 
   @override
   List<Skills> getSkills() {    
-    List<Skills> languages  = ['C', 'C++', 'Dart', 'PHP'];
+    List<Skills> languages  = ['C', 'C++', 'Dart', 'Flutter', 'PHP'];
     return languages;   
   }
 }
